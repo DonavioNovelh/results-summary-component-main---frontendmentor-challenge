@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" media="screen and (min-width: 480px)" href="mobilecss.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -13,130 +14,7 @@
   /*  .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }*/
 
-    @font-face {
-      font-family:lafue;
-      src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
-    }
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: lafue;
-    }
-    body {
-      height: 100vh;
-      width: 100vw
-    }
-    .header {
     
-      background: linear-gradient(35deg, #342EEA,#4835F1, #4835F1);
-      color: white;
-      text-align: center;
-      height: 40%;
-
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      border-radius: 0 0 50px 50px;
-    }
-
-    .header > h1 {
-      opacity: 0.6;
-      font-size: 1.5rem;
-      font-weight: normal;
-    }
-
-    .number {
-      font-size: 4rem;
-      font-weight: bold;
-    }
-
-    .circulo {
-      background: linear-gradient(to bottom, #391ca093, #342EEA);
-      height: 160px;
-      width: 160px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      
-      border-radius: 50%;
-    }
-
-    .conta {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;  
-    }
-    .embaixodeRead {
-      opacity: 0.4;
-      font-size: 1.3rem;
-      
-    }
-
-    h2 {
-      font-size: 1.7rem;
-      
-    }
-
-    p {
-      font-weight: normal;
-      opacity: 0.8;
-      margin-bottom: 20px;
-    }
-
-    .contei {
-      padding: 30px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .summary {
-      color: black;
-      font-size: 1.4rem;
-      font-weight: bold;
-    }
-
-      .verbal {
-        background-color: #F2FBFA;
-        color: #24B78D;
-      }
-    .bow {
-      display: flex;
-      background-color: whitesmoke;
-      height:60px;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 20px;
-      font-size: 1.3rem;
-      border-radius: 10px;
-
-      
-    }
-    .react {
-      background-image:  #9c0005;
-      color: #cf1016;
-    }
-    .memo {
-      background-color: #FEFBF2;
-      color: #cb8e00;
-    }
-    
-    .zaza {
-      background-color: #b6b8e052;
-      color: #000f7e;
-    }
-    input, .bow {
-      width: 100%;
-    }
-    input {
-      border-radius: 20PX;
-      height: 60PX;
-      border: none;
-      font-size: 1.5rem;
-      background-color: #303B59;
-      color: white;
-    }
   </style>
 </head>
 <body>
