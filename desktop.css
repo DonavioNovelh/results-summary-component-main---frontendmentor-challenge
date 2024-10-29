@@ -15,7 +15,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: aqua;
+        background-color: white;
         align-items: center;
       
   }
@@ -24,6 +24,7 @@
   }
 
     .recepiente {
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.228);
         border-radius: 20px;
         height: 350px;
         background-color: white;
